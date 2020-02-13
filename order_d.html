@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>每日點餐俱樂部</title>
+</head>
+
+<body>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner05.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container">
+        <h1 class=" text-center mt-5">每日點餐俱樂部</h1>
+
+        <iframe name="returnWin" style="display: none;" onload="this.onload=function(){window.location='ok_d.html'}">
+        </iframe>
+        <form target='returnWin' role="form"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5-U4noPH8q4BTuzz4A9fitODM4n-o9PgdhhEcHdTVccHA9w/formResponse"
+            method="post" id="myForm">
+            <div class="row">
+                <!--上欣：訂滿５個外送＿06-2262692-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>上欣：訂滿５個外送＿06-2262692<span class="text-danger">*</span></label>
+                        <select name="entry.1118454171" id="1118454171" value="" class="form-control" size="1">
+                            <option value="">請選擇桌號</option>
+                            <option value="1號桌">1號桌</option>
+                            <option value="2號桌">2號桌</option>
+                            <option value="3號桌">3號桌</option>
+                            <option value="4號桌">4號桌</option>
+                            <option value="5號桌">5號桌</option>
+                            <option value="6號桌">6號桌</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--京醬肉絲飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>京醬肉絲飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.1722747571" id="1722747571" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--花枝排飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>花枝排飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.146335073" id="146335073" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--香雞排飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>香雞排飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.263135441" id="263135441" value="0" min=0>
+                    </div>
+                </div>
+                <!--炸雞腿飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>炸雞腿飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.1863400313" id="1863400313" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--烤雞腿飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>烤雞腿飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.331537428" id="331537428" value="0" min=0>
+                    </div>
+                </div>
+                <!--烤雞腿排-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>烤雞腿排-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.1742487136" id="1742487136" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--排骨飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>排骨飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.282961254" id="282961254" value="0" min=0>
+                    </div>
+                </div>
+                <!--扣肉飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>扣肉飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name=" entry.1483867321" id="1483867321" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--魚排飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>魚排飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.968049989" id="968049989" value="0" min=0>
+                    </div>
+                </div>
+                <!--魚肚飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>魚肚飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.2011685959" id="2011685959" value="0" min=0>
+                    </div>
+                </div>
+                <!--鮮魚飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>鮮魚飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.142918373" id="142918373" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--軟骨飯-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>軟骨飯-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.357041768" id="357041768" value="0"
+                            min=0>
+                    </div>
+                </div>
+                <!--特餐-50元-->
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>特餐-50元<span class="text-danger">(請填數量)</span></label>
+                        <input type="number" class="form-control" name="entry.1153776233" id="1153776233" value="0" min=0>
+                    </div>
+                </div>
+                <!-- 備註 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label class="control-label">備註</label>
+                            <textarea class="form-control" rows="2" name="entry.999335246" id="999335246"></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center pb-3">
+                    <button type="submit" class="btn btn-primary">送出</button>
+                </div>
+
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- 表單驗證 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script>
+        $(function () {
+            $("#myForm").validate({
+                submitHandler: function (form) {
+                    form.submit();
+                },
+                rules: {
+                    'entry.1118454171': {//桌號
+                        required: true
+                    },
+                    'entry.1722747571': {//京醬肉絲
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.146335073': {//花枝排
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.263135441': {//香雞排
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.1863400313': {//炸雞腿飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.331537428': {//烤雞腿飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.1742487136': {//烤雞腿排
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.282961254': {//排骨飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.1483867321': {//扣肉飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.968049989': {//魚排飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.2011685959': {//魚肚飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.142918373': {//鮮魚飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.357041768': {//軟骨飯
+                        digits: true,
+                        min: 0
+                    },
+                    'entry.1153776233': {//特餐
+                        digits: true,
+                        min: 0
+                    }
+                },
+                messages: {
+                    'entry.1118454171': {//桌號
+                        required: "請輸入桌號"
+                    },
+                    'entry.1722747571': {//京醬肉絲
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.146335073': {//花枝排
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.263135441': {//香雞排
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.1863400313': {//炸雞腿飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.331537428': {//烤雞腿飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.1742487136': {//烤雞腿排
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.282961254': {//排骨飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.1483867321': {//扣肉飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.968049989': {//魚排飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.2011685959': {//魚肚飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.142918373': {//鮮魚飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.357041768': {//軟骨飯
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    },
+                    'entry.1153776233': {//特餐
+                        digits: "請填正確數量",
+                        min: "請填正確數量"
+                    }
+                }
+            });
+        });   
+    </script>
+</body>
+
+
+</html>
